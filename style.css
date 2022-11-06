@@ -1,0 +1,131 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin: 0;
+  }
+  
+  .container {
+    color: rgb(0, 0, 0);
+    background-image: url(https://i.pinimg.com/474x/8f/56/76/8f5676d7ab7bc52747fca59d56bbb49c.jpg); border-style: solid;
+    background-size: contain;
+    width: auto;
+    height: 175px;
+  }
+  
+  h1 { text-align: center; }
+  
+  .navbar { 
+    text-align: right; margin-right: 20px;
+    margin-top: -50px; 
+    margin-bottom: 25px;
+  }
+  
+  .list-nav {
+    padding: 0; 
+  }
+  
+  .list-nav li {
+      display: inline-block;
+      list-style: none;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  
+  .list-nav a { font-size: 15px; }
+  .list-nav li a.active { color: #b49e62; }
+  a:hover { color: #ffff00; }
+  
+  a { 
+    color: #996633; 
+    text-decoration:none;
+  }
+  
+  .content-header{ margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .content-text {
+     font-size: 50px;
+  }
+  
+  #content-img {
+    min-height: 75px;
+    text-align: center;
+    margin-top: -200px;
+  }
+  
+  #content-img img {
+    max-width: 100%;
+    border-radius: 50%;
+    border-style: solid;
+  }
+  .gallery-img{
+    height: 150px;
+    width: 150px;
+  }
+
+  .content1 {
+      padding: 15%;
+      font-size: 15px;
+    }
+  .section {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .section-small {
+    max-width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  .section-header {
+    color: #996633;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  hr {
+    width: 60%;
+    border: 0.5px solid #ccc;
+  }
+  
+  table {
+    width: 100%;
+    border-spacing: 0;
+    padding-bottom: 20px;
+  }
+  
+  th {
+    color: #333333;
+    font-weight: 400;
+    font-size: 1.2rem;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  td {
+    text-align: center;
+    padding: 10px 15px;
+  }
+  
+  .text-left { text-align: left; }
+  tr:nth-child(odd) { background-color: #eee5dc; }
+  
+  tr.tr-header {
+    background-color: #cfae8b;
+    height: 50px;
+  }
+  
+  .footer-text {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
